@@ -37,3 +37,5 @@ def ModelTest(dataset, features, Y_table, X_table, logistig_regretion, decision_
 	Y_pred_tree = decision_tree.predict(X_table)
 
 	return dataset_info, dataset_features, dataset_test_set, Y_logistig_regretion, Y_pred_tree
+
+
